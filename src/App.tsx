@@ -6,7 +6,7 @@ const resumeData: ResumeData = {
   name: "Ooduru Vinod Kumar Reddy",
   phone: "+91 9032230204",
   email: "vinodkumarreddyo823@gmail.com",
-  summary: "Highly motivated B.Tech Electronics and Communication Engineering student with a strong foundation in core engineering principles and a passion for software development. Proficient in C, Python, and web technologies, with a track record of academic excellence (CGPA 3.98). Seeking to leverage technical skills in a challenging role.",
+  summary: "Highly motivated B.Tech Electronics and Communication Engineering student with a strong foundation in core engineering principles and a passion for hardware design, circuit analysis, and embedded systems. Proficient in C, Python, and digital logic, with a track record of academic excellence (CGPA 3.98). Seeking to leverage technical expertise in hardware engineering roles.",
   education: [
     {
       degree: "B.Tech in Electronics and Communication Engineering (Year 3)",
@@ -16,24 +16,27 @@ const resumeData: ResumeData = {
     }
   ],
   skills: [
+    "PCB Design (Altium/KiCad)",
+    "Embedded Systems (Arduino/8051)",
+    "VLSI Design (Verilog/VHDL)",
+    "Digital Logic Design",
+    "Circuit Analysis & Simulation",
+    "Microcontrollers (ARM/PIC)",
+    "MATLAB & Simulink",
     "C Programming",
     "Python",
-    "Web Development (HTML, CSS, JavaScript)",
-    "React.js",
-    "Tailwind CSS",
-    "Embedded Systems",
-    "Circuit Design"
+    "Oscilloscope & Multimeter Usage"
   ],
   projects: [
     {
-      title: "Personal Portfolio Website",
-      description: "A responsive portfolio website built using React and Tailwind CSS to showcase projects and skills.",
-      technologies: ["React", "Tailwind CSS", "Lucide React"]
+      title: "Smart Irrigation System using IoT",
+      description: "Designed and implemented an automated irrigation system using soil moisture sensors and an ESP8266 microcontroller to optimize water usage.",
+      technologies: ["ESP8266", "Soil Sensors", "Embedded C"]
     },
     {
-      title: "Basic IoT Monitoring System",
-      description: "Developed a prototype for monitoring environmental parameters using sensors and microcontrollers.",
-      technologies: ["Arduino", "Sensors", "C++"]
+      title: "Digital Clock using 8051 Microcontroller",
+      description: "Developed a 24-hour digital clock with alarm functionality using an 8051 microcontroller and 7-segment displays.",
+      technologies: ["8051 Microcontroller", "Assembly Language", "Proteus"]
     }
   ],
   experience: [] // Can be filled later
